@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thailand Travel Tutor</title>
+    <link rel="stylesheet" href="travel.css">
+</head>
+
+<body>
+    
+    <div id="wrapper">
+    
+        <header>
+            <h1><a href="index.html">Thailand Travel Tutor</a></h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="bangkok.html" >Bangkok</a></li>
+                <li><a href="pattaya.html" >Pattaya</a></li>
+                <li><a href="chiang_mai.html" >Chiang Mai</a></li>
+                <li><a href="phuketandislands.html" >Phuket and Islands</a></li>
+                <li><a href="resources.html" >Contact/Travel Resources</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Form intro</h2>
+           <p>
+              If you have any questions or would like to get in touch, please fill out the form below, and <span class="thailand">Thailand Travel Tutor</span> will reach out as soon as possible.
+           </p>
+
+            <h3>Contact Form</h3>
+           <p>
+               <form>
+                   <label for="name">Name:</label>
+                   <input type="text" id="name" name="name" required>
+
+                   <label for="email">Email:</label>
+                   <input type="email" id="email" name="email" required>
+
+                   <label for="subject">Subject:</label>
+                   <input type="text" id="subject" name="subject" required>
+
+                   <label for="city">City of interest?</label>
+                   <select id="city" name="city" required>
+                       <option value="">Select a city</option>
+                       <option value="bangkok">Bangkok</option>
+                       <option value="pattaya">Pattaya</option>
+                       <option value="chiang_mai">Chiang Mai</option>
+                       <option value="phuket">Phuket</option>
+                       <option value="islands">Islands</option>
+                       <option value="other">Other</option>
+                   </select>
+                   <label for="subject">Subject:</label>
+                   <input type="text" id="subject" name="subject" required>
+                   <label for="message">Message:</label>
+                   <textarea id="message" name="message" rows="5" required></textarea>
+
+                   <input type="submit" value="Submit">
+               </form>
+           </p>
+        </main>
+
+        <footer>
+            Copyright © 2025 Thailand Travel Tutor. All Rights Reserved.<br>
+            <a href="mailto:nmjakubo@asu.edu">nmjakubo@asu.edu</a>
+        </footer>
+
+    </div>
+
+</body>
+</html>
